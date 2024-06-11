@@ -1,0 +1,189 @@
+/* setting */
+a {
+  list-style-type: none;
+}
+/* ---------- */
+/* colors */
+.cw {
+  color: white;
+  font-weight: 600;
+}
+
+.cw-n {
+  color: white;
+  font-weight: 600;
+}
+
+.cw:hover {
+  color: #f86f03;
+}
+
+.co {
+  color: #f86f03;
+}
+
+.co-n {
+  color: #f86f03;
+}
+
+.co:hover {
+  color: #ff9e0c;
+}
+
+.cp {
+  color: #491d5c;
+}
+
+.cp-n {
+  color: #491d5c;
+}
+
+.cp:hover {
+  color: #902dbb;
+}
+
+.txt-d,
+a {
+  text-decoration: none;
+}
+
+.txt-lg {
+  font-size: 60px;
+}
+
+.bg-a {
+  background-color: #170550;
+}
+
+.bg-b {
+  background-color: #31065a;
+}
+
+.bg-o {
+  background-color: #f86f03;
+}
+
+.hs-700 {
+  height: 630px;
+}
+
+.hs-500 {
+  height: 600px;
+}
+
+.xt-title-section {
+  border-bottom: 2px solid white;
+  padding: 5px 10px;
+  font-size: 42px;
+}
+
+/* --------------------- */
+/* navbar */
+
+.logo {
+  width: 110px;
+}
+
+.btn-hire {
+  padding: 12px 22px;
+  border-radius: 15px;
+  color: #212121;
+  background-color: #e8e8e8;
+  transition: all 250ms;
+  border: 1px solid #31065a;
+}
+
+.btn-hire:hover {
+  background-color: #363636;
+  color: white;
+  border: 1px solid white;
+}
+
+/* header */
+
+.head-img {
+  background: url(../images/header-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-box > ui > {
+}
+
+.btn-s {
+  display: grid;
+  place-items: center;
+  background: #e3edf7;
+  padding: 0.8rem;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.btn-s:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(0.5em);
+}
+
+.btn-s img {
+  transition: transform 0.5s;
+}
+
+.btn-s:hover img {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
+/* about us */
+
+/* skills */
+.progress-wrapper {
+  display: block;
+  margin: 10px 0;
+}
+
+.progress-wrapper .caption {
+  font-weight: 500;
+}
+
+.progress {
+  margin-top: 5px;
+  height: 1.25rem;
+  border: 2px solid #fff;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #747474;
+  font-size: 12px;
+}
+
+.progress,
+.progress-bar {
+  border-radius: 30px;
+}
+
+.progress-bar {
+  font-size: 12px;
+  background-color: #f86f03;
+}
+
+/* projects */
+
+.hover-bg:hover {
+  filter: blur(0.2rem);
+}
+
+/* contact */
+form > input,textarea,button {
+  padding: 5px 35px;
+  width: auto;
+  width: 100%;
+  margin-top: 18px;
+  border-radius: 15px;
+  background-color: #ffffff3d;
+  color: white;
+  border: 0;
+}
